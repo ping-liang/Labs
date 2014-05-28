@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLComponentDiagram1">
+  <componentModelMoniker Id="3e0a9c80-6328-4c03-a1b9-14bb5be9ccbb" />
+  <nestedChildShapes>
+    <componentShape Id="0ba9fd48-df46-41f0-ab84-1ec1183700a5" absoluteBounds="1.25, 1, 4.06875, 6.0604166666666668" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="2696ceb1-19b2-45f7-b5f3-84293c514a43" LastKnownName="Class" />
+      <nestedChildShapes>
+        <componentUseShape Id="74177fde-6f88-4a18-87e4-e7f2c79b0cb5" absoluteBounds="1.875, 1.59375, 2.8645833333333335, 1.6062500000000002" customColor="Aqua" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="507ca534-23b3-43df-8d22-11936baccce4" LastKnownName="CalendarEvents" />
+        </componentUseShape>
+        <componentUseShape Id="7e23cca8-6df5-4a4d-b12f-ebdd956c6ed4" absoluteBounds="1.875, 3.375, 2.8645833333333335, 0.95" customColor="Aqua" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="4c408580-7b49-43b1-9e6e-db0eaad542c5" LastKnownName="Announcement" />
+        </componentUseShape>
+        <componentUseShape Id="8818a1f8-380e-4db7-a361-f3128b1b7515" absoluteBounds="1.875, 5.875, 2.8645833333333335, 0.95" customColor="Aqua" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="d02107c5-b633-4817-ab77-bbb9a127520f" LastKnownName="Resource" />
+        </componentUseShape>
+        <componentUseShape Id="7e54dd63-106b-4116-b2f0-f6874f099e86" absoluteBounds="1.875, 4.625, 2.8645833333333335, 0.95" customColor="Aqua" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="7204b8af-a89c-4f44-a544-0bc2435ce02e" LastKnownName="Discussion" />
+        </componentUseShape>
+        <componentUseShape Id="eaaa9235-bb1b-4fd1-ae6f-b99ab0ac44ac" absoluteBounds="2.25, 2.125, 2.0625, 0.95" customColor="Yellow" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="744978a1-ca29-4dec-b5e7-207c78261fbc" LastKnownName="HomeworkDropbox" />
+        </componentUseShape>
+      </nestedChildShapes>
+    </componentShape>
+    <componentShape Id="49daf77a-46b8-43ab-b45b-990ce5218f4b" absoluteBounds="6.625, 1, 4.06875, 6.0395833333333337" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="8dd4a4ba-2546-4a93-a9cf-aafd320c7dc2" LastKnownName="Group" />
+      <nestedChildShapes>
+        <componentUseShape Id="5ecae987-2efc-4e59-9eaf-0e7dfac28f5b" absoluteBounds="7.25, 1.875, 2.8645833333333335, 0.95" customColor="Aqua" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="d33b4c87-8aff-4cfa-a73a-7de69296303d" LastKnownName="CalendarEvents" />
+        </componentUseShape>
+        <componentUseShape Id="8a6ad41e-00d8-4ac8-9090-c9411b146e58" absoluteBounds="7.25, 3.25, 2.8645833333333335, 0.95" customColor="Aqua" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="6549b729-f98a-4e76-bcfc-f0ace537b934" LastKnownName="Announcement" />
+        </componentUseShape>
+        <componentUseShape Id="47073ba0-5dda-40eb-ae29-e946a6725820" absoluteBounds="7.25, 5.875, 2.8645833333333335, 0.95" customColor="Aqua" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="6408eb50-b2aa-40ba-afac-362477f6a643" LastKnownName="Resource" />
+        </componentUseShape>
+        <componentUseShape Id="2e6930e0-709e-4bbb-8a6a-27587c0d630d" absoluteBounds="7.25, 4.625, 2.8645833333333335, 0.95" customColor="Aqua" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="da44add8-6b6d-4ee5-b293-722329a28e47" LastKnownName="Discussion" />
+        </componentUseShape>
+      </nestedChildShapes>
+    </componentShape>
+  </nestedChildShapes>
+</componentDiagram>

@@ -1,0 +1,56 @@
+Attempting to resolve dependency 'Microsoft.AspNet.SignalR.JS (= 2.0.3)'.
+Attempting to resolve dependency 'jQuery (= 1.6.4)'.
+Attempting to resolve dependency 'Microsoft.AspNet.SignalR.SystemWeb (= 2.0.3)'.
+Attempting to resolve dependency 'Microsoft.AspNet.SignalR.Core (= 2.0.3)'.
+Attempting to resolve dependency 'Newtonsoft.Json (= 5.0.0)'.
+Attempting to resolve dependency 'Owin (= 1.0)'.
+Attempting to resolve dependency 'Microsoft.Owin (= 2.0.1)'.
+Attempting to resolve dependency 'Microsoft.Owin.Security (= 2.0.1)'.
+Attempting to resolve dependency 'Microsoft.Owin.Host.SystemWeb (= 2.0.1)'.
+Installing 'jQuery 1.6.4'.
+Successfully installed 'jQuery 1.6.4'.
+Installing 'Microsoft.AspNet.SignalR.JS 2.0.3'.
+You are downloading Microsoft.AspNet.SignalR.JS from Microsoft, the license agreement to which is available at http://www.microsoft.com/web/webpi/eula/signalr_client_ENU.htm. Check the package for additional dependencies, which may come with their own license agreement(s). Your use of the package and dependencies constitutes your acceptance of their license agreements. If you do not accept the license agreement(s), then delete the relevant components from your device.
+Successfully installed 'Microsoft.AspNet.SignalR.JS 2.0.3'.
+Installing 'Newtonsoft.Json 5.0.8'.
+Successfully installed 'Newtonsoft.Json 5.0.8'.
+Installing 'Owin 1.0'.
+Successfully installed 'Owin 1.0'.
+Installing 'Microsoft.Owin 2.0.2'.
+You are downloading Microsoft.Owin from Microsoft, the license agreement to which is available at http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm. Check the package for additional dependencies, which may come with their own license agreement(s). Your use of the package and dependencies constitutes your acceptance of their license agreements. If you do not accept the license agreement(s), then delete the relevant components from your device.
+Successfully installed 'Microsoft.Owin 2.0.2'.
+Installing 'Microsoft.Owin.Security 2.0.2'.
+You are downloading Microsoft.Owin.Security from Microsoft, the license agreement to which is available at http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm. Check the package for additional dependencies, which may come with their own license agreement(s). Your use of the package and dependencies constitutes your acceptance of their license agreements. If you do not accept the license agreement(s), then delete the relevant components from your device.
+Successfully installed 'Microsoft.Owin.Security 2.0.2'.
+Installing 'Microsoft.AspNet.SignalR.Core 2.0.3'.
+You are downloading Microsoft.AspNet.SignalR.Core from Microsoft, the license agreement to which is available at http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_ENU.htm. Check the package for additional dependencies, which may come with their own license agreement(s). Your use of the package and dependencies constitutes your acceptance of their license agreements. If you do not accept the license agreement(s), then delete the relevant components from your device.
+Successfully installed 'Microsoft.AspNet.SignalR.Core 2.0.3'.
+Installing 'Microsoft.Owin.Host.SystemWeb 2.0.2'.
+You are downloading Microsoft.Owin.Host.SystemWeb from Microsoft, the license agreement to which is available at http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm. Check the package for additional dependencies, which may come with their own license agreement(s). Your use of the package and dependencies constitutes your acceptance of their license agreements. If you do not accept the license agreement(s), then delete the relevant components from your device.
+Successfully installed 'Microsoft.Owin.Host.SystemWeb 2.0.2'.
+Installing 'Microsoft.AspNet.SignalR.SystemWeb 2.0.3'.
+You are downloading Microsoft.AspNet.SignalR.SystemWeb from Microsoft, the license agreement to which is available at http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_ENU.htm. Check the package for additional dependencies, which may come with their own license agreement(s). Your use of the package and dependencies constitutes your acceptance of their license agreements. If you do not accept the license agreement(s), then delete the relevant components from your device.
+Successfully installed 'Microsoft.AspNet.SignalR.SystemWeb 2.0.3'.
+Installing 'Microsoft.AspNet.SignalR 2.0.3'.
+You are downloading Microsoft.AspNet.SignalR from Microsoft, the license agreement to which is available at http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_ENU.htm. Check the package for additional dependencies, which may come with their own license agreement(s). Your use of the package and dependencies constitutes your acceptance of their license agreements. If you do not accept the license agreement(s), then delete the relevant components from your device.
+Successfully installed 'Microsoft.AspNet.SignalR 2.0.3'.
+Adding 'jQuery 1.6.4' to SignalRChat.
+Successfully added 'jQuery 1.6.4' to SignalRChat.
+Adding 'Microsoft.AspNet.SignalR.JS 2.0.3' to SignalRChat.
+Successfully added 'Microsoft.AspNet.SignalR.JS 2.0.3' to SignalRChat.
+Adding 'Newtonsoft.Json 5.0.8' to SignalRChat.
+Successfully added 'Newtonsoft.Json 5.0.8' to SignalRChat.
+Adding 'Owin 1.0' to SignalRChat.
+Successfully added 'Owin 1.0' to SignalRChat.
+Adding 'Microsoft.Owin 2.0.2' to SignalRChat.
+Successfully added 'Microsoft.Owin 2.0.2' to SignalRChat.
+Adding 'Microsoft.Owin.Security 2.0.2' to SignalRChat.
+Successfully added 'Microsoft.Owin.Security 2.0.2' to SignalRChat.
+Adding 'Microsoft.AspNet.SignalR.Core 2.0.3' to SignalRChat.
+Successfully added 'Microsoft.AspNet.SignalR.Core 2.0.3' to SignalRChat.
+Adding 'Microsoft.Owin.Host.SystemWeb 2.0.2' to SignalRChat.
+Successfully added 'Microsoft.Owin.Host.SystemWeb 2.0.2' to SignalRChat.
+Adding 'Microsoft.AspNet.SignalR.SystemWeb 2.0.3' to SignalRChat.
+Successfully added 'Microsoft.AspNet.SignalR.SystemWeb 2.0.3' to SignalRChat.
+Adding 'Microsoft.AspNet.SignalR 2.0.3' to SignalRChat.
+Successfully added 'Microsoft.AspNet.SignalR 2.0.3' to SignalRChat.

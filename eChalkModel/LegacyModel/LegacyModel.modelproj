@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42bfc364-b2d6-4735-a230-5f667d09fe23}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>LegacyModel</Name>
+    <RootNamespace>LegacyModel</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="ClassAndGroup\Class\ClassAnnouncement.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassAndGroup\Class\ClassAnnouncement.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassAndGroup\Class\ClassAnnouncement.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassAndGroup\Class\ClassCalendarEvent.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassAndGroup\Class\ClassCalendarEvent.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassAndGroup\Class\ClassCalendarEvent.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassAndGroup\Class\ClassMembership.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassAndGroup\Class\ClassMembership.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassAndGroup\Class\ClassMembership.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassAndGroup\Class\ClassProfile.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassAndGroup\Class\ClassProfile.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassAndGroup\Class\ClassProfile.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassAndGroup\Class\HomeworkDropbox.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassAndGroup\Class\HomeworkDropbox.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassAndGroup\Class\HomeworkDropbox.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassAndGroup\Discussion\ClassGroupDiscussion.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassAndGroup\Discussion\ClassGroupDiscussion.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassAndGroup\Discussion\ClassGroupDiscussion.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassAndGroup\Group\GroupCalendarEvent.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassAndGroup\Group\GroupCalendarEvent.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassAndGroup\Group\GroupCalendarEvent.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassAndGroup\Group\GroupMembership.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassAndGroup\Group\GroupMembership.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassAndGroup\Group\GroupMembership.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassAndGroup\Group\GroupProfile.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassAndGroup\Group\GroupProfile.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassAndGroup\Group\GroupProfile.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassAndGroup\Resources\ClassGroupResources.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassAndGroup\Resources\ClassGroupResources.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassAndGroup\Resources\ClassGroupResources.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Directory\Site.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Directory\Site.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Directory\Site.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Directory\User.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Directory\User.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Directory\User.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1220.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1220.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1220.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_1220.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1220.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1234.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1407.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2206.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2209.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2239.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2334.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HighLevelClassGroupComponents.componentdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HighLevelClassGroupComponents.componentdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>HighLevelClassGroupComponents.componentdiagram</DependentUpon>
+    </Content>
+    <Folder Include="ClassAndGroup\Class\" />
+    <Folder Include="ClassAndGroup\Group\" />
+    <Folder Include="ClassAndGroup\Announcement" />
+    <Folder Include="ClassAndGroup\CalendarEvents" />
+    <Folder Include="ClassAndGroup\Discussion" />
+    <Folder Include="ClassAndGroup\Resources" />
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\LegacyModel.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="ClassAndGroup" />
+    <Folder Include="Directory" />
+  </ItemGroup>
+</Project>

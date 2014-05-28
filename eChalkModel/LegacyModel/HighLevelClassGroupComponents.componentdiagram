@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="3e0a9c80-6328-4c03-a1b9-14bb5be9ccbb" name="UMLComponentDiagram1" linkedPackageId="b390e9cc-89fa-4f51-b2ef-ae2212ae411d" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="c1f0e49f-ce11-4c50-9c0a-6bf6224a7708">
+      <profileInstance Id="63e41c1f-e736-4263-b881-21d5d09f2f7c" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="5b9a08c5-fc6e-40fa-87b7-56dc1d6d7829">
+      <profileInstance Id="2c6d5114-0c1f-4e9f-8caf-efb31f53bc11" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="2696ceb1-19b2-45f7-b5f3-84293c514a43" name="Class" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6caa49d1-4385-465e-94a0-961a5227c356" />
+        <ownedAttributesInternal>
+          <part Id="507ca534-23b3-43df-8d22-11936baccce4" name="CalendarEvents" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="cae5801e-5036-4b34-985a-7fe5767d0fdc" />
+            <type_NamedElement>
+              <componentMoniker Id="06c7195d-fd29-48e6-bd2c-888e81681772" />
+            </type_NamedElement>
+          </part>
+          <part Id="4c408580-7b49-43b1-9e6e-db0eaad542c5" name="Announcement" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="55d0250f-1f7a-4d6e-b1cf-ea06bbcbd49c" />
+            <type_NamedElement>
+              <componentMoniker Id="370add88-b537-49cf-8a0f-1cefc8fccfed" />
+            </type_NamedElement>
+          </part>
+          <part Id="d02107c5-b633-4817-ab77-bbb9a127520f" name="Resource" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="77dde461-0157-4f3d-b89a-9576bd832ab9" />
+            <type_NamedElement>
+              <componentMoniker Id="23c75821-7059-47f1-b6ab-57b37f7658ce" />
+            </type_NamedElement>
+          </part>
+          <part Id="7204b8af-a89c-4f44-a544-0bc2435ce02e" name="Discussion" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="1b9d9fa3-4f1c-4669-883e-96978f836062" />
+            <type_NamedElement>
+              <componentMoniker Id="a75ef85c-a3f4-476d-b868-fcd3247cdf53" />
+            </type_NamedElement>
+          </part>
+          <part Id="744978a1-ca29-4dec-b5e7-207c78261fbc" name="HomeworkDropbox" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="d60303ac-b9c9-4290-88cc-807c6c106d33" />
+            <type_NamedElement>
+              <componentMoniker Id="53ba3c09-d85b-4e6f-bc4c-579581b21902" LastKnownName="HomeworkDropbox" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="06c7195d-fd29-48e6-bd2c-888e81681772" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="015d9cd7-fcc3-49f2-9c19-9b602e99aea4" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="370add88-b537-49cf-8a0f-1cefc8fccfed" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d89b1430-9e5c-4e3b-9256-22b56dddfd4f" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="23c75821-7059-47f1-b6ab-57b37f7658ce" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="aeb140d5-cd03-47d1-bdb8-773f09136517" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="a75ef85c-a3f4-476d-b868-fcd3247cdf53" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="03aa6f7c-dc2f-44c4-bf6e-a326c4709198" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="53ba3c09-d85b-4e6f-bc4c-579581b21902" name="HomeworkDropbox" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b6204c4a-1a41-4ffd-982b-13fd7d02533c" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="8dd4a4ba-2546-4a93-a9cf-aafd320c7dc2" name="Group" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b993ecb7-70f0-48c3-982c-801b1cccb6f0" />
+        <ownedAttributesInternal>
+          <part Id="d33b4c87-8aff-4cfa-a73a-7de69296303d" name="CalendarEvents" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="e4e69172-9956-4d03-ac73-355372e1bdee" />
+            <type_NamedElement>
+              <componentMoniker Id="c1023e2a-437c-4262-b386-669f197b3899" />
+            </type_NamedElement>
+          </part>
+          <part Id="6549b729-f98a-4e76-bcfc-f0ace537b934" name="Announcement" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="098c17ae-15c0-47de-83ec-536f8bbed835" />
+            <type_NamedElement>
+              <componentMoniker Id="57950ca2-d760-4c5f-ab4e-88138c6c0540" />
+            </type_NamedElement>
+          </part>
+          <part Id="6408eb50-b2aa-40ba-afac-362477f6a643" name="Resource" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="7e10d795-b8c5-4240-9c71-8edd8bddd5ec" />
+            <type_NamedElement>
+              <componentMoniker Id="ae1fb264-0948-4218-8b97-929e8f74118f" />
+            </type_NamedElement>
+          </part>
+          <part Id="da44add8-6b6d-4ee5-b293-722329a28e47" name="Discussion" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="b9334d9e-c17b-4c5f-8403-50fcffa84ad8" />
+            <type_NamedElement>
+              <componentMoniker Id="403c13b4-ead7-4240-b58a-f9d0eb4573c5" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="c1023e2a-437c-4262-b386-669f197b3899" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="015d9cd7-fcc3-49f2-9c19-9b602e99aea4" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="57950ca2-d760-4c5f-ab4e-88138c6c0540" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d89b1430-9e5c-4e3b-9256-22b56dddfd4f" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="ae1fb264-0948-4218-8b97-929e8f74118f" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="aeb140d5-cd03-47d1-bdb8-773f09136517" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="403c13b4-ead7-4240-b58a-f9d0eb4573c5" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="03aa6f7c-dc2f-44c4-bf6e-a326c4709198" />
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="b390e9cc-89fa-4f51-b2ef-ae2212ae411d" name="LegacyModel">
+    <elementDefinition Id="445d3089-ab23-42be-8dae-9ace53610c0a" />
+  </package>
+</componentModel>
