@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FacebookSync.aspx" />
+    <Content Include="fbsync2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +71,13 @@
     </Compile>
     <Compile Include="FacebookSync.aspx.designer.cs">
       <DependentUpon>FacebookSync.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fbsync2.aspx.cs">
+      <DependentUpon>fbsync2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fbsync2.aspx.designer.cs">
+      <DependentUpon>fbsync2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

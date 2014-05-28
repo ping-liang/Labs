@@ -19,12 +19,15 @@ namespace FB
 
         private void FacebookCheckAuthorization()
         {
+            //eChalkApp Id and Secret  
             //string appId = "288890157955347";
+            // string appSecret = "807cddd3baa680891e68433fcc784106";
+
+            //eChalkApp-Test1 Id and Secret 
             string appId = "289263874584642";
-         
-           // string appSecret = "807cddd3baa680891e68433fcc784106";
             string appSecret = "ab67e6bfe1bb983799ec3703fd336a7f";
-            string scope = "publish_actions,manage_pages";
+            //string scope = "publish_actions,manage_pages";
+            string scope = "publish_actions";
 
             if (Request["code"] == null)
             {
@@ -62,7 +65,5 @@ namespace FB
             }
         }
     }
-
-   
 
 }
