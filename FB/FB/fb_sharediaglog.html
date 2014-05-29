@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Publish to Facebook using Shared Diaglog</title>
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    appId: '288890157955347',
+                    xfbml: true,
+                    version: 'v2.0'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) { return; }
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+
+
+    </script>
+ 
+</head>
+<body>
+   <form>
+    <div class="fb-share-button" data-href="http://www.sd129.org/view_announcement.aspx?id=6fabeae5-13b4-493a-8c4a-b24b3c4a01ae" data-type="button"></div>
+   </form>
+</body>
+</html>
