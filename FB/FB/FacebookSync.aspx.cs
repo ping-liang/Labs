@@ -17,8 +17,7 @@ namespace FB
             FacebookCheckAuthorization();
         }
 
-        private void FacebookCheckAuthorization()
-        {
+        private void FacebookCheckAuthorization()        {
             //eChalkApp Id and Secret  
             //string appId = "288890157955347";
             // string appSecret = "807cddd3baa680891e68433fcc784106";
@@ -59,7 +58,7 @@ namespace FB
 
                     var client = new FacebookClient(accessToken);
 
-                    client.Post("/me/feed", new { message = "Testing submitting message from eChalk Announcement to Facebook." });
+                    client.Post("/me/feed", new { message = "Testing submitting message from eChalk Announcement to Facebook. Time Submitted:" + DateTime.Now.ToString() });
                 }
 
             }

@@ -3,6 +3,7 @@
 <head>
     <title>Publish to Facebook using Shared Diaglog</title>
         <script>
+            /*
             window.fbAsyncInit = function () {
                 FB.init({
                     appId: '288890157955347',
@@ -18,14 +19,42 @@
                 js.src = "//connect.facebook.net/en_US/sdk.js";
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
-
-
+*/
     </script>
+
+           <style type="text/css" media="screen">
+  #custom-tweet-button a {
+    display: block;
+    padding: 2px 5px 2px 20px;
+    background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
+    border: 1px solid #ccc;
+  }
+</style>
  
 </head>
 <body>
+    
+
+<div id="fb-root"></div>
+<script>    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=288890157955347&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
    <form>
     <div class="fb-share-button" data-href="http://www.sd129.org/view_announcement.aspx?id=6fabeae5-13b4-493a-8c4a-b24b3c4a01ae" data-type="button"></div>
-   </form>
+
+
+     <a href="https://www.facebook.com/dialog/share?app_id=288890157955347&display=popup&href=http%3A%2F%2Fms.king.echalk.net%2Fannouncement.aspx%3Fid%3Dec1fa895-0bd7-4258-802b-46996add9481&redirect_uri=http%3A%2F%2ms.king.echalk.net/home">Facebool share</a>
+
+       <br />
+
+
+ 
+  NY times link: 
+<div class="fb-share-button" data-href="http://www.nytimes.com/2014/06/10/world/asia/karachi-pakistan-airport-attack-taliban.html?hp&amp;_r=0" data-type="icon"></div>m>
 </body>
 </html>

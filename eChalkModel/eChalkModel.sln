@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "LegacyModel", "LegacyModel\LegacyModel.modelproj", "{42BFC364-B2D6-4735-A230-5F667D09FE23}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "SlateModel", "SlateModel\SlateModel.modelproj", "{7DBD84FE-5EE8-4927-82D2-B07DC5753DC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{42BFC364-B2D6-4735-A230-5F667D09FE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42BFC364-B2D6-4735-A230-5F667D09FE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42BFC364-B2D6-4735-A230-5F667D09FE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBD84FE-5EE8-4927-82D2-B07DC5753DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBD84FE-5EE8-4927-82D2-B07DC5753DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBD84FE-5EE8-4927-82D2-B07DC5753DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBD84FE-5EE8-4927-82D2-B07DC5753DC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
