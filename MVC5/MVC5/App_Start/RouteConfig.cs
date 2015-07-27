@@ -9,6 +9,8 @@ namespace MVC5
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            //Add comments here
+
             routes.MapRoute(
              name: "Demo",
              url: "demo/{theme}",

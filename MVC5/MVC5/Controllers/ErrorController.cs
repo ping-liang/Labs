@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using System.Web.UI;
 
 namespace MVC5.Controllers
 {
@@ -8,6 +9,7 @@ namespace MVC5.Controllers
         {
             Response.StatusCode = 404;
 
+            Response.AddCacheDependency();
             return View();
         }
     }
