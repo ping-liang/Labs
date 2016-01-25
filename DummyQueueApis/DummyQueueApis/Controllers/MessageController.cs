@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.ModelBinding.Binders;
+using LegacyModels.Exceptions;
 using LegacyModels.Queue;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -12,10 +16,12 @@ namespace DummyQueueApis.Controllers
 {
     public class MessageController : ApiController
     {
+        private const string CONNECTION_STRING = "Server=vmdevmainext;Database=FileMigrationTestSiteAndUserTempDB;Trusted_Connection=True;";
+
         [HttpGet]
         public Request GetUsers()
         {
-           var  queueRequest = new Request();
+          // var  queueRequest = new Request();
 
 
            // hs.king.echalk.net user
@@ -38,19 +44,107 @@ namespace DummyQueueApis.Controllers
          //   queueRequest.LegacySiteId = "18286442-8CB1-4995-9D5D-A9B2D24A8A02";
 
             //Test it in production:
-          string userIdList = "B3A92C38-E3C1-47E4-A88A-C76BCAEF3B5E";
-          queueRequest.LegacySiteId = "58564468-CDD1-4EA5-B87A-9ABF4EB055E5";
+          // string userIdList = "58564468-CDD1-4EA5-B87A-9ABF4EB055E5";
+          //queueRequest.LegacySiteId = "494608CF-0DC2-451E-A4CB-401E33B67594";
+          //494608CF-0DC2-451E-A4CB-401E33B67594
 
+          //  queueRequest.LegacyUserIds = userIdList.Split(",".ToCharArray()).ToList();
+          //  queueRequest.MessageId = Guid.NewGuid().ToString();
+          //  return queueRequest;
 
-            queueRequest.LegacyUserIds = userIdList.Split(",".ToCharArray()).ToList();
-            queueRequest.MessageId = Guid.NewGuid().ToString();
-            return queueRequest;
+            return GetRequest();
         }
 
         [HttpPost]
         public void PostResponse([FromBody] JObject requestBody)
         {
            var response = JsonConvert.DeserializeObject<Response>(requestBody.ToString());
+
+           if (response != null)
+           {
+               string cmdText = String.Format("Exec dbo.usp_UpdateSiteAndUserMigrationStatus '{0}', '{1}' ",
+                   response.LegacySiteId, String.Join(",", String.Join(",", response.LegacyUserFileMaps.Select(m => m.UserId))));
+
+               try
+               {
+                   using (var conn = new SqlConnection(CONNECTION_STRING))
+                   {
+                       conn.Open();
+                       using (var cmd = new SqlCommand(cmdText, conn))
+                       {
+                          cmd.ExecuteNonQuery();
+                       }
+                       conn.Close();
+                   }
+               }
+               catch (Exception ex)
+               {
+                   throw new LegacyFileMigrationAgentException(String.Format("Error executing query. Connection String: {0}; CommandText: {1}", CONNECTION_STRING, cmdText), ex, true, false);
+               }
+           }
+        }
+
+        private Request GetRequest()
+        {
+            var queueRequest = new Request();
+            //queueRequest.LegacyUserIds = userIdList.Split(",".ToCharArray()).ToList();
+         
+
+            var cmdText = "Exec dbo.usp_GetNextBatchOfUsersForMigration";
+            var dbTable = GetDataTableFromDatabase(cmdText);
+           
+            var  userIds = new List<String>();
+            string siteId = string.Empty;
+
+            foreach (DataRow row in dbTable.Rows)
+            {
+                userIds.Add(row.Field<Guid>("user_id").ToString());
+                siteId = row.Field<Guid>("user_group_id").ToString();
+            }
+
+            if (!String.IsNullOrEmpty(siteId))
+            {
+                queueRequest.MessageId = Guid.NewGuid().ToString();
+                queueRequest.LegacySiteId = siteId;
+                queueRequest.LegacyUserIds = userIds;
+                return queueRequest;
+            }
+
+            return null;
+        }
+
+
+        /// <summary>
+        /// Get disconnected DataTable from the database
+        /// </summary>
+        /// <param name="commandText"></param>
+        /// <param name="commandTimeOut"></param>
+        /// <returns></returns>
+        public static DataTable GetDataTableFromDatabase(string commandText, int commandTimeOut = 120)
+        {
+            var dbTable = new DataTable();
+
+            try
+            {
+                using (var conn = new SqlConnection(CONNECTION_STRING))
+                {
+                    using (var cmd = new SqlCommand(commandText, conn))
+                    {
+                        cmd.CommandTimeout = commandTimeOut;
+
+                        using (var dadapter = new SqlDataAdapter(cmd))
+                        {
+                            dadapter.Fill(dbTable);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new LegacyFileMigrationAgentException(String.Format("Error executing query. Connection String: {0}; CommandText: {1}", CONNECTION_STRING, commandText), ex, true, false);
+            }
+
+            return dbTable;
         }
     }
 }
